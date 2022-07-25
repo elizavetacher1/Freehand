@@ -1,0 +1,52 @@
+.logo:hover .logo_vector {
+    stroke: #16133D;
+        footer & {
+        stroke: #ffffff;
+    }
+  }
+ 
+.icon:hover {
+       width: 50px;
+}
+
+.social_icon {
+        gap: 10px; 
+        padding-top: 40px;
+}
+
+.logo {
+    height: 35px;
+    width: 200px;
+    &::after { 
+        content: "Freehand";
+        color: black;
+        font-family: $secondary-font;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 35px;
+            footer & {
+                color: rgb(255, 255, 255);    
+                }
+        }
+}
+
+.card_opacity {
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+}
+  
+.card_opacity:hover {
+    opacity: 1;
+}
+  
+.card_opacity-mobile {
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    left: 15.3px;
+}
+  
+.card_opacity-mobile:hover {
+    opacity: 1;
+}
